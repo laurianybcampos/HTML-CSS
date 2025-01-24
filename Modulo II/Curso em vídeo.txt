@@ -1,0 +1,23 @@
+-> weight: peso
+-> width: largura
+-> height: altura
+
+em HTML é id = em CSS é #
+em HTML é class = em CSS é . (ponto)
+
+ID é unico, classe é multiplo 
+
+SELETORES PERSONALIZADOS
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-alement
+> = clildren
+
+Modelos de caixas: tudo que é exbido é em forma de caixa, e podemos por uma caixa dentro, e isso chama de ANINHAMENTO
+EXEMPLO: <h1> Olá, mundo</h1> ele pega um padaço da tela para escrever isso, todo alemento é uma caixa, um dos pontos é a altura = height, e largura width, border e o outro é padding, esse ultimo elemento é como se fosse o preenchimento, entre uma caixa e outra exemplo fica entre o box do ola, mundo e a borda, o padding é interno, e externo é margin.
+outline é contorno ou traçado fora da caixa
+
+Div: é do tipo box-level, pula linha, oculpa a largura inteira 
+
+Span: inline-level, não pula 

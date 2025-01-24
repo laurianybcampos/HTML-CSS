@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: salmon;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+        nav {
+            background-color: bisque;
+            padding: 3px;
+            box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.308); /*Sombras, pode colocar outro px para colocar sombra interna, podemos usa p devtools*/ 
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(116, 113, 113);
+            font-weight: bold;
+            margin-right: 30px;
+                    }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(252, 201, 195);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px; /*arrendondamento de borda*/ 
+            box-shadow: 4px 1px 3px 0px rgba(0, 0, 0, 0.336);
+        }
+        article{
+            background-color: rgb(240, 230, 230);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: darksalmon;
+        }
+        
+        footer{
+            background-color: black;
+            color: salmon;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+      /*  div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }*/
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav><!--caixinha onde colocamos os principais links de navegação-->
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main> <!--Conteúdo principal-->
+        <section id="Assuntoas">
+    
+        </section>
+        <section id="noticiais"><!--Usado para dividir o conteudo de forma organizada-->
+            <article> <!--Usado para tratar assuntos de forma individual-->
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia sit reprehenderit consectetur nihil ipsum tempore. Sunt laborum optio quidem, similique soluta quae deserunt, recusandae reprehenderit porro esse temporibus ab!</p>
+            </article>
+            <article>
+                <h2>Coisas sobre o G2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis culpa, odit magni rem veniam commodi omnis nemo facilis unde explicabo incidunt harum consectetur magnam laboriosam, nesciunt iusto! Delectus, inventore ea!</p>
+            </article>
+            <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis culpa, odit magni rem veniam commodi omnis nemo facilis unde explicabo incidunt harum consectetur magnam laboriosam, nesciunt iusto! Delectus, inventore ea!</p>
+            </article>
+        </section>
+    </main>
+    <footer><!--Rodapé-->
+        <p>Desenvolvido por Lauriany</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
